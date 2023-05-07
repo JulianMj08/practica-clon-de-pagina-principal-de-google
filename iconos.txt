@@ -1,4 +1,0 @@
-google font icons
-flaticon
-fontawesome
-icnonos8

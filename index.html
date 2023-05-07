@@ -4,39 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="Author" content="Julian Gómez Henao">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" sizes="192x192" href="./favicon.ico" type="image/ico">
     <title>Google Clone</title>
 </head>
 <body>
     <header>
         <nav>
             <ul class="nav-right-section">
-                <li>
-                    <a href="">Gmail</a>
-                </li>
-                <li>
-                    <a href="">Imagenes</a>
-                </li>
-                <li class="menu-icon">
-                    <a href="" ></a>
-                </li>
+                <li><a href="mailto:correo">Gmail</a></li>
+                <li><a href="https://www.google.es/imghp?hl=es-419&authuser=0&ogbl">Imágenes</a></li>
+                <li class="menu-icon"><a href=""></a></li>
                 <li>
                     <a href="">
-                        <img src="https://lh3.googleusercontent.com/a/AEdFTp4ukXn0YVvykpyWTAs2085vILeJLyOfPTqb0gylGg=s32" alt="">
+                        <img src="https://lh3.googleusercontent.com/a/AEdFTp4ukXn0YVvykpyWTAs2085vILeJLyOfPTqb0gylGg=s32" alt="imagen cuenta">
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
-    <!-- contenedor principal,en estecaso es el centro de la pantalla donde esta el logo,el input de busqueda y los otros contenedores -->
+    <!-- contenedor principal,en este caso es el centro de la pantalla donde esta el logo,el input de busqueda y los otros contenedores -->
     <main> 
         
+    <!-- a este main le abrimos tres secciones:una para el logo,otra para el input,y otra para los botones -->
 
-        <!-- a este main le abrimos tres secciones:una para el logo,otra para el input,y otra para los botones -->
-       
        <!-- logo -->
         <section class="main-logo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="imagen google">
         </section>
         <!-- en esta seccion debemos colocar adentro el icono de la lupa y el icono de grabacion,por eso utilizamos etiqueta span 
         para colocar la lupa y luego el inpunt y mas adelante le colocamos una etiqueta de ancla para traer el icono de 
@@ -45,50 +40,36 @@
         <!-- lupa,input,microfono -->
         <section class="main-input">
             <div class="main-input-container">
-                <span class="search-icon">
-
-                </span>
+                <span class="search-icon"></span>
                 <input type="text">
                 <a class="micro-icon" href=""></a>
-            </div>
-
-            <!-- botones -->
+            </div>   
         </section>
+
+        <!-- botones -->
         <section class="main-buttons">
             <div>
-                <button>Buscar con Google</button>
+                <button><a style="color: #5f6368;" href="https://www.google.com/search?q=buscador+google&sxsrf=APwXEdcQ0pC-Ovd78l5L2FNKfQGsbbrXbg%3A1683471552112&source=hp&ei=wLxXZMOxBOujkdUPn5G54AU&iflsig=AOEireoAAAAAZFfK0HryWOtPJ1XHiahjNsw5_RgRxD74&oq=buscador+googlr&gs_lcp=Cgdnd3Mtd2l6EAEYADIKCAAQgAQQsQMQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjoHCC4Q6gIQJzoHCCMQ6gIQJzoHCCMQigUQJzoJCCMQigUQExAnOgQIIxAnOhEILhCABBCxAxCDARDHARDRAzoHCC4QigUQQzoICAAQgAQQsQM6CwgAEIAEELEDEIMBOgsILhDUAhCxAxCABDoFCAAQgAQ6DQguEMcBENEDEIoFECc6BwgAEIoFEEM6DggAEIAEELEDEIMBEMkDOggIABCKBRCSAzoLCC4QgAQQsQMQ1AI6DgguEIoFELEDEIMBENQCOhAILhCKBRDHARDRAxDUAhBDOggILhCABBCxAzoMCAAQigUQQxBGEPkBOggIABCABBCSAzoICAAQgAQQyQNQpwlY_DJg_0doA3AAeACAAe8CiAGPFJIBBzUuNy4zLjGYAQCgAQGwAQo&sclient=gws-wiz">Buscar con Google</a></button>
             </div>
             <div>
-                <button>Me siento con suerte</button>
+                <button><a style="color: #5f6368;" href="https://www.google.com/doodles">Me siento con suerte</a></button>
             </div>
-
         </section>
     </main>
+
+    <!--pie de página-->
     <footer>
             <ul class="footer-left">
-                <li>
-                    <a href="">Publicidad</a>
-                </li>
-                <li>
-                  <a href="">Negocios</a>  
-                </li>
-                <li>
-                  <a href="">Acerca de</a>  
-                </li>
-                <li>
-                    <a href="">Funcion de la busqueda</a>
-                </li>
+                <li><a href="https://ads.google.com/intl/es-419_es/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/intl/es_es/?subid=es-es-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=es-es-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Negocios</a></li>
+                <li><a href="">Acerca de</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Funcion de la busqueda</a></li>
             </ul>
+
             <ul class="footer-right">
-                <li>
-                    <a href="">Publicidad</a>
-                </li>
-                <li>
-                    <a href="">Condiciones</a>
-                </li>
-                <li>
-                    <a href="">Prefencias</a>
-                </li>
+                <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
+                <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
+                <li><a href="">Prefencias</a></li>
             </ul>
     </footer>
 </body>
